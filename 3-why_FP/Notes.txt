@@ -1,0 +1,129 @@
+
+
+
+
+Predicate byAmount = new Predicate() {
+	@Override
+	public boolean test(Txn txn) {
+		return txn.getAmount() == amount;
+	}
+};
+
+		
+		|
+		|
+		|
+		|
+		|
+		V
+
+
+
+Predicate byAmount = 
+	public boolean test(Txn txn) {
+		return txn.getAmount() == amount;
+	}
+
+
+
+		|
+		|
+		|
+		|
+		|
+		V
+
+		
+
+Predicate byAmount = 
+	 boolean test(Txn txn) {
+		return txn.getAmount() == amount;
+	}
+	
+	
+	
+		|
+		|
+		|
+		|
+		|
+		V
+	
+	
+
+Predicate byAmount = 
+	  test(Txn txn) {
+		return txn.getAmount() == amount;
+	}
+	
+	
+	
+		|
+		|
+		|
+		|
+		|
+		V
+	
+	
+	
+
+Predicate byAmount = 
+	  (Txn txn) {
+		return txn.getAmount() == amount;
+	}
+	
+	
+	
+		|
+		|
+		|
+		|
+		|
+		V
+	
+	
+	
+
+Predicate byAmount = 
+	  (txn) -> {
+		return txn.getAmount() == amount;
+	}
+	
+	
+	
+	
+		|
+		|
+		|
+		|
+		|
+		V
+	
+	
+
+Predicate byAmount = 
+	  txn -> {
+		return txn.getAmount() == amount;
+	}
+	
+	
+	
+		|
+		|
+		|
+		|
+		|
+		V
+		
+		
+// Java'8 function syntax   / Lambda Expression		
+
+Predicate byAmount = 
+	  txn -> txn.getAmount() == amount;
+	
+	
+	
+	
+	
+	

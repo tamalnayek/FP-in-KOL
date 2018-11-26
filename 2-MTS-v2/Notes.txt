@@ -1,0 +1,53 @@
+
+//-------------------------------------------------------------
+OO concepts
+//-------------------------------------------------------------
+
+1-Abstraction
+2-Encapsulation
+3-Inheritance
+4-Polymorphism
+
+
+
+
+e.g Money Transfer System
+
+
+//-------------------------------------------------------------
+step-1 :    Model  
+//-------------------------------------------------------------
+
+- Account
+
+
+//-------------------------------------------------------------
+step-2 :   layer(s)
+//-------------------------------------------------------------
+
+	layer-1 : data/repository layer  ==> persisting logic
+	layer-2 : service layer          ==> processing logic
+	layer-3 : web-layer              ==> request & response logic 
+	
+//-------------------------------------------------------------	
+OO principles a.k.a SOLID principles
+//-------------------------------------------------------------	
+	
+	S — Single responsibility principle
+	O — Open closed principle
+	L — Liskov substitution principle
+	I — Interface segregation principle
+	D — Dependency Inversion principle
+	
+	
+//-------------------------------------------------------------	
+OO patterns  ==> standard solutions for common OO problem
+//-------------------------------------------------------------	
+
+	=> creational patterns
+	=> structural patterns
+	=> behavioral patterns
+
+//-------------------------------------------------------------	
+	   
+

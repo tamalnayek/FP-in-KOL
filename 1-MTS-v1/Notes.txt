@@ -1,0 +1,33 @@
+
+
+OO concepts
+------------
+
+1-Abstraction
+2-Encapsulation
+3-Inheritance
+4-Polymorphism
+
+
+
+// e.g Money Transfer System
+
+
+//-------------------------------------------------------------
+step-1 :    Model  
+//-------------------------------------------------------------
+
+- Account
+
+
+//-------------------------------------------------------------
+step-2 :   layer(s)
+//-------------------------------------------------------------
+
+	layer-1 : data/repository layer  ==> persisting logic
+	layer-2 : service layer          ==> processing logic
+	layer-3 : web-layer              ==> request & response logic 
+	
+//-------------------------------------------------------------	
+	   
+
