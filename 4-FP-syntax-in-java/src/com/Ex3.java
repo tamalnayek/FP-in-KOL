@@ -13,6 +13,8 @@ public class Ex3 {
 		list.add("veg");
 		list.add("nveg");
 
+		// common examples
+
 		// list.removeIf(item -> item.equals("nveg"));
 		// list.replaceAll(item -> item.equals("nveg") ? "Nil" : item);
 		// System.out.println(list);
