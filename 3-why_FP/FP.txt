@@ -1,0 +1,6 @@
+
+
+
+
+  => to write clean & concise code 
+     by separating 'How' code from 'What' code
