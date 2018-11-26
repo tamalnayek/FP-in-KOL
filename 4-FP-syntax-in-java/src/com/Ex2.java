@@ -41,8 +41,8 @@ public class Ex2 {
 
 		// -------------------------------------------------------------------
 
-//		BinaryOperator<Integer> add = (n1, n2) -> n1 + n2;
-//		int sumResult = add.apply(12, 13);
+		// BinaryOperator<Integer> add = (n1, n2) -> n1 + n2;
+		// int sumResult = add.apply(12, 13);
 		// or
 		IntBinaryOperator intBinaryOperator = (n1, n2) -> n1 + n2;
 		int sumResult = intBinaryOperator.applyAsInt(12, 13);

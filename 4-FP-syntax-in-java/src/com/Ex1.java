@@ -9,8 +9,7 @@ import java.util.function.Predicate;
  * 
  *         type of function/Lambda-expression in .java is 'Functional Interface'
  *         
- *         
- *         FunctionalInterface ==> must have single-abstract-method ( SAM ) 
+ *         i.e FunctionalInterface ==> must have single-abstract-method ( SAM ) 
  *
  */
 
@@ -50,6 +49,7 @@ public class Ex1 {
 		};
 		StringToIntMapper mapper5 = s -> s.length();
 
+		
 		// --------------------------------------------------
 	}
 
