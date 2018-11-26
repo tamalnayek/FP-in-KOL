@@ -1,5 +1,6 @@
 
 
+wht FP ?
 
 
   => to write clean & concise code 
