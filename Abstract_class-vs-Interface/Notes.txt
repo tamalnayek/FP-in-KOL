@@ -1,0 +1,10 @@
+
+
+
+java-module
+---------------
+
+
+top-level    : interface
+middle-level : Abstract-class
+bottom-level : concrete-class (s)
